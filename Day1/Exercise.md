@@ -7,7 +7,7 @@ a distance in meter, press a button, and get the
 conversion in yard (e.g. using a toast or writing the conversion
 in a second EditText).
 
-One meter is equivalent to 3.28084 foots.
+One meter is equivalent to 3.28084 feet.
 
 ## Excercise 2
 Extend your application to converter from meter to feet,
