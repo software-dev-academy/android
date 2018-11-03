@@ -103,15 +103,12 @@ A tag is a construct that begins with `<` and ends with `>`. Tags come in three 
 * empty-element tag, such as `<publisher />`
 
 ## Elements
-An element is a logical document component that either begins with a start-tag and ends with a matching end-tag (or consists only of an empty-element tag).
+An element is a logical document component that either begins with a start-tag and ends with a matching end-tag or consists only of an empty-element tag.
 The characters between the start-tag and end-tag, if any, are the element's content, and may contain markup, including other elements, which are called child elements.
 Some examples:
 * `<author>Roberto Guanciale</author>` is an element, its content is `Roberto Guanciale`
 * `<title>The Scientific Method</title>` is an element, its content is `The Scientific Method`
-* `<book pages="125">
-  <author>Roberto Guanciale</author>	
-  <title>First Android Lecture</title>	
- </book>` is an element. it has two children: `<author>Roberto Guanciale</author>` and `<title>First Android Lecture</title>`.
+* `<book pages="125"><author>Roberto Guanciale</author>	<title>First Android Lecture</title>	</book>` is an element. it has two children: `<author>Roberto Guanciale</author>` and `<title>First Android Lecture</title>`.
 * the whole XML document is an element, usually called root. It contains three children.
 
 
