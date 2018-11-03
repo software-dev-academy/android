@@ -114,7 +114,7 @@ Some examples:
 
 ## Attributes
 An attribute is a construct consisting of a name–value pair that exists within a start-tag (or empty-element tag).
-An example is `<book pages"1016" year="2026">`, where the name of the attributes are "pages" and "year" and their values are "1016" and "2026" respectively.
+An example is `<book pages="1016" year="2026">`, where the name of the attributes are "pages" and "year" and their values are "1016" and "2026" respectively.
 An XML attribute can only have a single value and each attribute can appear at most once on each element. In the common situation where a list of multiple values is desired, this must be done by encoding the list into a well-formed XML attribute with some format beyond what XML defines itself. Usually this is either a comma or semi-colon delimited list or, if the individual values are known not to contain spaces,a space-delimited list can be used. 
 
 ## Resources
