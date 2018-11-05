@@ -46,7 +46,7 @@ conversion.
 The app should not display in the target spinner the unit measure that has been
 selected as source.
 
-## Excercise 4
+## Excercise 5
 Extend your application to converter distances, weights and volumes.
 The user inputs the measurement,
 selects the source unit measure
