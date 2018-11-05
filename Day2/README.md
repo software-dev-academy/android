@@ -63,7 +63,7 @@ The design view of the layout editor also support resources. The same change can
 3. clicking on `...` near the `text` attribute in the Property panel
 4. selecting the proper resources and clicking OK.
 
-Similarly, we can change the text of cutton as follows
+Similarly, we can change the text of a button as follows
 ```Xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
@@ -84,11 +84,11 @@ Similarly, we can change the text of cutton as follows
 </LinearLayout>
 ```
 Notice that, because you haven't defined the string resource `button_send`, you’ll see a compiler error at first.
-Open the string resource file at `res > values > strings.xml`. Here, you add a new strings.
+Open the string resource file at `res > values > strings.xml`. Here you can add a new string.
 ```XML
         <string name="button_send">Send</string>
 ```
-For text in the user interface, always specify each string as a resource. String resources allow you to manage all UI text in a single location, which makes the text easier to find and update. Externalizing the strings also allows you to localize your app to different languages by providing alternative definitions for each string resource
+For text in the user interface always specify each string as a resource. String resources allow you to manage all UI text in a single location which makes the text easier to find and update. Externalizing the strings also allows you to localize your app to different languages by providing alternative definitions for each string resource
 
 Try to compile and run the application.
 
