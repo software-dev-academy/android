@@ -21,7 +21,7 @@ public class BoardView extends View {
 ```
 
 The main purpose of a view is to display something on the
-screen. The Android runtine invokes the onDraw method of the
+screen. The Android runtime invokes the onDraw method of the
 View whenever it needs to update the graphics of our widget.
 Add the following method to the BoardView class:
 
@@ -85,7 +85,7 @@ the pixels starting from `(width/8,0)` to `(width/8 + width/8, height/8)`.
 The third cell from `(width/8 + width/8, height/8)` to `(3*width/8, height/8)` and so on.
 
 
-In our Activity we create a minimal `LinearLayour` and we add the `BoardView` to it.
+In our Activity we create a minimal `LinearLayout` and we add the `BoardView` to it.
 Notice that we are not creating the Activity Content using `XML`.
 
 ```Java
@@ -108,7 +108,7 @@ Writing Activity layouts in java is a pain. We would like to
 be able to add our BoardView to an XML file similarly to
 other Android widgets (like TextEntry).
 
-First, we must modify add to BoardView with the following methods:
+First, we must modify BoardView with the following methods:
 ```Java
 public BoardView(Context context, AttributeSet attrs) {
   super(context, attrs);
