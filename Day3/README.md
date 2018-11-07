@@ -1,4 +1,4 @@
-# Android Day02 custom canvas
+# Android Day 3 custom canvas
 Some resources useful for this lecture:
 * https://developer.android.com/guide/topics/graphics/2d-graphics.html
 * https://developer.android.com/training/custom-views/create-view.html
